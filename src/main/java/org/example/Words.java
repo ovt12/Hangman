@@ -1,8 +1,11 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Words {
+
+    private static final Random RANDOM = new Random();
     private static ArrayList<String> words = new ArrayList<>();
 
     static {
@@ -16,6 +19,11 @@ public class Words {
         words.add("desktops");
         words.add("windscreen");
         words.add("zookeepers");
+    };
 
+    public static String randomWord(){
+        int index = RANDOM.nextInt(words.size());
+        return words.get(index);
     }
+
 }

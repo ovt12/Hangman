@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Words.java" afterDir="false" />
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="Word list in array added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Words.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +65,19 @@
       <option name="project" value="LOCAL" />
       <updated>1672932063979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Word list in array added">
+      <created>1672933217827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672933217828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="Word list in array added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Word list in array added" />
   </component>
 </project>
