@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="Added in methods to put in main">
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="things are working input works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -77,13 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672934780948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="things are working input works">
+      <created>1673014701408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673014701408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
     <MESSAGE value="Word list in array added" />
     <MESSAGE value="Added in methods to put in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in methods to put in main" />
+    <MESSAGE value="things are working input works" />
+    <option name="LAST_COMMIT_MESSAGE" value="things are working input works" />
   </component>
 </project>

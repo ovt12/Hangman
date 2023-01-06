@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         int lives = 5;
+        int guess = 5;
 
         regexArray.add("");
         regexArray.add("");
@@ -33,20 +34,26 @@ public class Main {
 
         String randomWord = Words.randomWord().toLowerCase();
         System.out.println(randomWord);
+        String replaceWord = "";
 
-        while (lives >= 0) {
 
-            System.out.println("Pick a letter:");
+        while (lives >= 1 && !replaceWord.equals(randomWord)) {
+
+            System.out.println("Pick a letter: ");
             String letter = input.next();
 
-            for (int i = 0; i < regexArray.size(); i++) {
-                System.out.println("Pick a letter:");
+            if (randomWord.contains(letter)){
                 regexArray.add(letter);
-                String replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
+                replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
                 System.out.println(replaceWord);
+            } else {
+                lives -= 1;
+                System.out.println("You guessed wrong! Try Again!");
+                System.out.println("Lives: " + lives);
             }
         }
-
-
+        System.out.println("You loose");
     }
 }
+
+
