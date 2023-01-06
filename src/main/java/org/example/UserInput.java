@@ -19,6 +19,7 @@ public class UserInput {
 
             System.out.println("Pick a letter: ");
             String letter = input.next();
+            System.out.println(randomWord);
 
             if (randomWord.contains(letter)) {
                 regexArray.add(letter);
@@ -32,7 +33,15 @@ public class UserInput {
                 System.out.println(guessArray);
             }
         }
-        System.out.println("You loose");
+        if (lives < 1){
+            System.out.println("UNLUCKY! YOU HAVE LOST!");
+            System.out.println("The Word was: " + randomWord);
+
+        } else {
+            System.out.println("CONGRATULATION!! YOU HAVE WON!!");
+        }
+
+
     }
     }
 
