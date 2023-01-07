@@ -18,8 +18,8 @@ public class copy {
             String letter = getUserGuess();
 
             if (isGuessCorrect(randomWord, letter)) {
-                updateRegexArray(letter);
-                displayCorrectGuess(randomWord);
+                updateRegexArray(letter, randomWord);
+
             } else {
                 updateGuessArray(letter);
                 displayIncorrectGuess(lives);
@@ -37,14 +37,16 @@ public class copy {
         return randomWord.contains(letter);
     }
 
-    private static void updateRegexArray(String letter) {
+    private static void updateRegexArray(String letter, String randomWord) {
         regexArray.add(letter);
-    }
-
-    private static void displayCorrectGuess(String randomWord) {
         String replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
         System.out.println(replaceWord);
     }
+
+//    private static void displayCorrectGuess(String randomWord) {
+//        String replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
+//        System.out.println(replaceWord);
+//    }
 
     private static void updateGuessArray(String letter) {
         guessArray.add(letter);
