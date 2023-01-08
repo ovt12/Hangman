@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="added guesses as method into userInput">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/copy.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="added guesses as method into userInput" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673132979482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added guesses as method into userInput">
+      <created>1673137298094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673137298094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
