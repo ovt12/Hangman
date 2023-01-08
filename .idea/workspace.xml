@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="Seeing if i can create methods to run the game">
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="added guesses as method into userInput">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673131888550</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added guesses as method into userInput">
+      <created>1673132979482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673132979482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +134,7 @@
     <MESSAGE value="Need to change folders" />
     <MESSAGE value="adding a winning condition in there" />
     <MESSAGE value="Seeing if i can create methods to run the game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeing if i can create methods to run the game" />
+    <MESSAGE value="added guesses as method into userInput" />
+    <option name="LAST_COMMIT_MESSAGE" value="added guesses as method into userInput" />
   </component>
 </project>
