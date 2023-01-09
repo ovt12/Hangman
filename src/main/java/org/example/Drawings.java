@@ -38,7 +38,7 @@ public class Drawings extends UserInput {
         if (lives == 0) {
             System.out.println("  ________");
             System.out.println("  |       |");
-            System.out.println("  |       O");
+            System.out.println("  |       O       OH THANKS!!!");
             System.out.println("  |     --|--");
             System.out.println("  |      | |");
             System.out.println("__|__");

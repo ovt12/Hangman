@@ -10,15 +10,18 @@ public class UserInput {
     static ArrayList<String> guessArray = new ArrayList<>();
     public static int lives = 5;
 
+
     public static void startGame() {
         String randomWord = Words.randomWord().toLowerCase();
+        guessArray.clear();
+        regexArray.clear();
         lives = 5;
         String replaceWord = "";
         while (lives >= 1 && !replaceWord.equals(randomWord)) {
 
             System.out.println("Pick a letter: ");
             String letter = input.next();
-            Results.correctInput(letter, randomWord);
+            Results.correctInput(letter);
             letter = letter.toLowerCase();
 
             if (randomWord.contains(letter)) {
@@ -32,31 +35,14 @@ public class UserInput {
                 System.out.println("You guessed wrong! Try Again!");
                 Drawings.hangmanImage();
                 System.out.println("Lives: " + lives);
+                System.out.println(replaceWord);
                 Results.displayGuesses(guessArray);
 
             }
         }
-        if (lives < 1){
-            System.out.println("UNLUCKY! YOU HAVE LOST!");
-            System.out.println("The Word was: " + randomWord);
-            restartGame();
-
-        } else {
-            System.out.println("CONGRATULATION!! YOU HAVE WON!!");
-            restartGame();
-        }
+        Results.lostResult(randomWord);
     }
 
-    public static void restartGame(){
-        System.out.println("Would you like the play again? y = Yes / n = No");
-        String answer = input.next();
-        answer = answer.toLowerCase();
-        if (answer.equals("y")) {
-            startGame();
-        } else {
-            System.out.println("Thank you for playing!");
-        }
-    }
 
 
     }
