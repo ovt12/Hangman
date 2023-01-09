@@ -29,6 +29,7 @@ public class UserInput {
                 replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
                 System.out.println("Lives: " + lives);
                 System.out.println(replaceWord);
+                Results.displayGuesses(guessArray);
             } else {
                 lives -= 1;
                 guessArray.add(letter);

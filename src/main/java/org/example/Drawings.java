@@ -22,7 +22,7 @@ public class Drawings extends UserInput {
         if (lives == 2) {
             System.out.println("  ________");
             System.out.println("  |       |");
-            System.out.println("  |       O");
+            System.out.println("  |      \uD83D\uDC41\uD83D\uDC41");
             System.out.println("  |");
             System.out.println("  | ");
             System.out.println("__|__");
@@ -30,15 +30,21 @@ public class Drawings extends UserInput {
         if (lives == 1) {
             System.out.println("  ________");
             System.out.println("  |       |");
-            System.out.println("  |       O");
             System.out.println("  |       |");
-            System.out.println("  | ");
+            System.out.println("  |      _____");
+            System.out.println("  |     |\uD83D\uDC41\uD83D\uDC41|");
+            System.out.println("  |      |\uD83D\uDC43|");
+            System.out.println("  |      |\uD83D\uDC45|");
             System.out.println("__|__");
         }
         if (lives == 0) {
             System.out.println("  ________");
             System.out.println("  |       |");
-            System.out.println("  |       O       OH THANKS!!!");
+            System.out.println("  |       |");
+            System.out.println("  |      _____");
+            System.out.println("  |     |\uD83D\uDC41\uD83D\uDC41|");
+            System.out.println("  |      |\uD83D\uDC43|                     UNLUCKY YOU LOST!!");
+            System.out.println("  |      |\uD83D\uDC45|");
             System.out.println("  |     --|--");
             System.out.println("  |      | |");
             System.out.println("__|__");

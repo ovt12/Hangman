@@ -35,7 +35,7 @@ public class Results extends Main {
             System.out.println("The Word was: " + randomWord);
             restartGame();
         } else {
-            System.out.println("CONGRATULATION!! YOU HAVE WON!!");
+            System.out.println("\uD83C\uDF8A\uD83C\uDF8ACONGRATULATION!! YOU HAVE WON!!\uD83C\uDF8A\uD83C\uDF8A");
             restartGame();
         }
 

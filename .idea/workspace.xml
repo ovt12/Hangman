@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="added guesses as method into userInput">
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="COMPLETE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
     </list>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673137967893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="COMPLETE">
+      <created>1673278771470</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673278771470</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +155,7 @@
     <MESSAGE value="adding a winning condition in there" />
     <MESSAGE value="Seeing if i can create methods to run the game" />
     <MESSAGE value="added guesses as method into userInput" />
-    <option name="LAST_COMMIT_MESSAGE" value="added guesses as method into userInput" />
+    <MESSAGE value="COMPLETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMPLETE" />
   </component>
 </project>
