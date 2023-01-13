@@ -1,7 +1,7 @@
 package org.example;
 
-public class Drawings extends UserInput {
-    public static void hangmanImage() {
+public class Drawings {
+    public static void hangmanImage(int lives) {
         if (lives == 5) {
             System.out.println("__|__");
         }

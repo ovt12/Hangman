@@ -3,15 +3,15 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class UserInput {
+public class Game {
 
-    private static Scanner input = new Scanner(System.in);
-    private static ArrayList<String> regexArray = new ArrayList<>();
-    static ArrayList<String> guessArray = new ArrayList<>();
-    public static int lives = 5;
+    private Scanner input = new Scanner(System.in);
+    private ArrayList<String> regexArray = new ArrayList<>();
+    private ArrayList<String> guessArray = new ArrayList<>();
+    public int lives = 5;
+    private final Results results = new Results();
 
-
-    public static void startGame() {
+    public void startGame() {
         String randomWord = Words.randomWord().toLowerCase();
         guessArray.clear();
         regexArray.clear();
@@ -21,7 +21,9 @@ public class UserInput {
 
             System.out.println("Pick a letter: ");
             String letter = input.next();
-            Results.correctInput(letter);
+            if (!results.correctInput(letter)) {
+                continue;
+            }
             letter = letter.toLowerCase();
 
             if (randomWord.contains(letter)) {
@@ -29,22 +31,23 @@ public class UserInput {
                 replaceWord = randomWord.replaceAll("[^" + regexArray + "]", "_");
                 System.out.println("Lives: " + lives);
                 System.out.println(replaceWord);
-                Results.displayGuesses(guessArray);
+
+                results.displayGuesses(guessArray);
             } else {
                 lives -= 1;
                 guessArray.add(letter);
                 System.out.println("You guessed wrong! Try Again!");
-                Drawings.hangmanImage();
+                Drawings.hangmanImage(lives);
                 System.out.println("Lives: " + lives);
                 System.out.println(replaceWord);
-                Results.displayGuesses(guessArray);
+                results.displayGuesses(guessArray);
 
             }
         }
-        Results.lostResult(randomWord);
+        results.lostResult(randomWord, lives);
+
+        if (results.restartGame()) {
+            startGame();
+        }
     }
-
-
-
-    }
-
+}

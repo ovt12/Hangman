@@ -3,40 +3,40 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Results extends Main {
+public class Results {
 
-    private static Scanner input = new Scanner(System.in);
+    private Scanner input = new Scanner(System.in);
 
-    public static void displayGuesses(ArrayList<String> guessArray) {
+    public void displayGuesses(ArrayList<String> guessArray) {
         System.out.println("Your guesses so far: " + guessArray);
     }
 
-    public static void correctInput(String letter) {
+    public boolean correctInput(String letter) {
         if (letter.length() > 1) {
             System.out.println("Please pick just ONE letter!!");
-            UserInput.startGame();
+            return false;
         };
+        return true;
     }
 
-    public static void restartGame() {
+    public boolean restartGame() {
         System.out.println("Would you like the play again? y = Yes / n = No");
         String answer = input.next();
         answer = answer.toLowerCase();
         if (answer.equals("y")) {
-            UserInput.startGame();
+            return true;
         } else {
             System.out.println("Thank you for playing!");
+            return false;
         }
     }
 
-    public static void lostResult(String randomWord) {
-        if (UserInput.lives < 1) {
+    public void lostResult(String randomWord, int lives) {
+        if (lives < 1) {
             System.out.println("UNLUCKY! YOU HAVE LOST!");
             System.out.println("The Word was: " + randomWord);
-            restartGame();
         } else {
             System.out.println("\uD83C\uDF8A\uD83C\uDF8ACONGRATULATION!! YOU HAVE WON!!\uD83C\uDF8A\uD83C\uDF8A");
-            restartGame();
         }
 
 
