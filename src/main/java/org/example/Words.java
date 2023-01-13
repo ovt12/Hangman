@@ -23,7 +23,8 @@ public class Words {
 
     public static String randomWord(){
         int index = RANDOM.nextInt(words.size());
-        return words.get(index);
+//        return words.get(index);
+        return "test";
     }
 
 }
