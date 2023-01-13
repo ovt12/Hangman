@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="COMPLETE">
+    <list default="true" id="2e4b8d3f-8478-46b2-9137-53d3f44213c7" name="Changes" comment="COMPLETED WITH EMOJI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Drawings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673278771470</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="COMPLETED WITH EMOJI">
+      <created>1673283499110</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673283499110</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +160,7 @@
     <MESSAGE value="Seeing if i can create methods to run the game" />
     <MESSAGE value="added guesses as method into userInput" />
     <MESSAGE value="COMPLETE" />
-    <option name="LAST_COMMIT_MESSAGE" value="COMPLETE" />
+    <MESSAGE value="COMPLETED WITH EMOJI" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMPLETED WITH EMOJI" />
   </component>
 </project>
