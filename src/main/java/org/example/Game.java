@@ -15,7 +15,7 @@ public class Game {
     // REMOVE STATIC
     public  int lives = 5;
 
-    private Results results = new Results();
+    private final Results results = new Results();
 
     public void startGame() {
         String randomWord = Words.randomWord().toLowerCase();
